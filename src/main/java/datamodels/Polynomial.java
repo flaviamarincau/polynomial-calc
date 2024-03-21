@@ -31,20 +31,6 @@ public class Polynomial {
         polynomials.clear();
     }
 
-    public double getCoefficient(int degree) {
-        return polynomials.getOrDefault(degree, 0.0);
-    }
-
-    public int getDegree() {
-            int maxDegree = 0;
-            for (int degree : polynomials.keySet()) {
-                if (degree > maxDegree) {
-                    maxDegree = degree;
-                }
-            }
-            return maxDegree;
-    }
-
     public String convertString() {
         StringBuilder polynomialBuilt = new StringBuilder();
         TreeMap<Integer, Double> sortedPolynomials = new TreeMap<>(Collections.reverseOrder());
@@ -115,9 +101,4 @@ public class Polynomial {
         mergeCoefficients(degree, coefficient);
     }
 
-    public void sortByDegree() {
-        TreeMap<Integer, Double> sortedPolynomials = new TreeMap<>(Collections.reverseOrder());
-        sortedPolynomials.putAll(this.polynomials);
-        this.polynomials = sortedPolynomials;
-    }
 }
