@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="JavaFX-21">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/lib/PT2024_30422_Marincau_Flavia_Assignment_1" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/lib/java" />
+    </SOURCES>
+  </library>
+</component>
