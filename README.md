@@ -1,6 +1,6 @@
 # Polynomial Operations
 
-This project provides a set of operations for manipulating polynomials, including 0addition, subtraction, multiplication, division, derivation, and integration. The project is implemented in Java and uses Maven for dependency management, as well as JUnit testing for accurate results.
+This project provides a set of operations for manipulating polynomials, including addition, subtraction, multiplication, division, derivation, and integration. The project is implemented in Java and uses Maven for dependency management, as well as JUnit testing for accurate results.
 
 ## Features
 
