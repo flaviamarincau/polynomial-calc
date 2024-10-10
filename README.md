@@ -1,13 +1,14 @@
 # Polynomial Operations
 
-This project provides a set of operations for manipulating polynomials, including addition, subtraction, multiplication, division, derivation, and integration. The project is implemented in Java and uses Maven for dependency management, as well as JUnit testing for accurate results.
+This project provides a set of operations for manipulating polynomials, including addition, subtraction, multiplication, derivation, and integration. The project is implemented in Java and uses Maven for dependency management, as well as JUnit testing for accurate results.
+
+For more details about the implementation, please check the documentation in the repo.
 
 ## Features
 
 - **Addition**: Add two polynomials.
 - **Subtraction**: Subtract one polynomial from another.
 - **Multiplication**: Multiply two polynomials.
-- **Division**: Divide one polynomial by another.
 - **Derivation**: Derive a polynomial.
 - **Integration**: Integrate a polynomial.
 
@@ -54,3 +55,4 @@ You can run the application using your IDE (e.g., IntelliJ IDEA) or from the com
 To run the tests, use the following command:
 ```sh
 mvn test
+
