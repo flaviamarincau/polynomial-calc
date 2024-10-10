@@ -22,8 +22,8 @@ This project provides a set of operations for manipulating polynomials, includin
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/polynomial-operations.git
-    cd polynomial-operations
+    git clone https://github.com/flaviamarincau/polynomial-calc.git
+    cd polynomial-calc
     ```
 
 2. Build the project using Maven:
